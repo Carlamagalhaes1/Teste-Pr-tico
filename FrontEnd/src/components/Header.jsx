@@ -17,7 +17,7 @@ export function Header() {
                     PORTAL DO ALUNO
                 </a>
             </nav>
-            <button className=" mr-[12px] md:hidden">☰</button>
+            <button className=" mr-[12px]  md:hidden">☰</button>
         </header>
     );
 }
