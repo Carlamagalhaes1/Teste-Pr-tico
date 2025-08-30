@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import Courses from "../components/Courses";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Information from "../components/Information";
 import InformationDecision from "../components/InformationDesicion";
@@ -17,6 +18,7 @@ export default function Home (){
             <Modules/>
             <Courses/>
             <Investment/>
+            <Footer/>
             
         </div>
     )

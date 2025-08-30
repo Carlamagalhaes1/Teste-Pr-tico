@@ -10,7 +10,7 @@ export default function Investment() {
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
         
       
-        <div className="bg-[#04254E] text-white p-4 lg:p-8 flex flex-col justify-center items-center border border-[#70707082] rounded-lg shadow-lg text-center">
+        <div className="bg-[#04254E] text-white p-4 lg:p-8 flex flex-col justify-center items-center border border-[#70707082] rounded-lg  text-center">
           <p className="text-base md:text-[20px] font-normal">
             3º lote: Total de R$ 2.835,35 <br /> + Matrícula de R$ 70
           </p>
@@ -22,7 +22,7 @@ export default function Investment() {
           </button>
         </div>
 
-        <div className="bg-[#7070702a] p-2  lg:p-6 flex flex-col justify-center items-center rounded-lg border border-[#70707082] shadow-md text-center">
+        <div className="bg-[#7070702a] p-2  lg:p-6 flex flex-col justify-center items-center rounded-lg border border-[#70707082] text-center">
           <h3 className="text-xl font-bold flex items-center gap-1">
             <h1 className="text-[#555555] text-4xl font-serif">OP</h1>
             <span className="text-yellow-500 font-bold">+</span>
