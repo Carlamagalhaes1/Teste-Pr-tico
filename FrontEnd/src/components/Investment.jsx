@@ -7,10 +7,10 @@ export default function Investment() {
       </h2>
 
     
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
         
       
-        <div className="bg-[#04254E] text-white p-4  lg:p-8 flex flex-col justify-center items-center border border-[#70707082] rounded-2xl shadow-lg text-center">
+        <div className="bg-[#04254E] text-white p-4 lg:p-8 flex flex-col justify-center items-center border border-[#70707082] rounded-lg shadow-lg text-center">
           <p className="text-base md:text-[20px] font-normal">
             3º lote: Total de R$ 2.835,35 <br /> + Matrícula de R$ 70
           </p>
