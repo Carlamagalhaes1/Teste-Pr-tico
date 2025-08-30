@@ -1,7 +1,7 @@
 export default function BANNER() {
     return (
         <div className="bg-[#17254D] text-white lg:px-[72px]">
-            <div className="container mx-auto px-4 lg:py-12 md:px-0 py-6 md:py-8 ">
+            <div className="container mx-auto px-4 lg:py-14 md:px-0 py-6 md:py-8 ">
                 <div className="flex flex-col lg:flex-row lg:px-0 justify-between gap-6 md:gap-8 md:px-16">
 
                     
