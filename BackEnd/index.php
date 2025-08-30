@@ -1,2 +1,2 @@
 <?php
-echo "API rodando 🚀";
+echo "API rodando 🚀.";
