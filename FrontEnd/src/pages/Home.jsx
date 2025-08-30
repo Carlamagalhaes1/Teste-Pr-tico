@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import Courses from "../components/Courses";
+
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Information from "../components/Information";
@@ -17,6 +18,7 @@ export default function Home (){
             <InformationDecision/>
             <Modules/>
             <Courses/>
+         
             <Investment/>
             <Footer/>
             
