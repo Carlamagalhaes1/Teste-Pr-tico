@@ -35,7 +35,7 @@ export default function InformationDecision() {
   };
 
   return (
-    <section className=" bg-[#F3F3F3] p-4 sm:p-6 md:p-8 shadow-md lg:px-[72px] font-sans">
+    <section className="  p-4 sm:p-6 md:pt-0 md:pb-0 shadow-md lg:px-[72px] font-sans">
       <h2 className="text-xl sm:text-3xl font-bold text-black mb-4 border-l-4 border-[#138E98] pl-2">
         Informações para decidir
       </h2>
