@@ -4,7 +4,13 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 const data = [
   {
     title: "Competências que você vai desenvolver",
-    content: "O curso aborda o papel do(a) secretário(a) escolar, suas atribuições e competências, incluindo organização de arquivos, credenciamento de escolas e relações interpessoais no ambiente de trabalho. Também apresenta noções de redação oficial, com modelos de documentos, gramática aplicada e uso adequado de pronomes de tratamento. Na parte de informática, são exploradas funções básicas de editores de texto e planilhas para organização e apresentação de dados. Por fim, o curso trata dos principais instrumentais da Secretaria Escolar, como a escrituração, documentos de gestão e avaliações de aprendizagem."
+    content: `O curso aborda o papel do(a) secretário(a) escolar, suas atribuições e
+    competências, incluindo organização de arquivos, credenciamento de escolas e relações interpessoais no ambiente de trabalho.
+    Também apresenta noções de redação oficial, com modelos de documentos, gramática aplicada e uso adequado de pronomes de tratamento.
+    Na parte de informática, são exploradas funções básicas de 
+    editores de texto e planilhas para organização e apresentação de dados.
+    Por fim, o curso trata dos principais instrumentais da Secretaria Escolar, 
+    como a escrituração, documentos de gestão e avaliações de aprendizagem.`
   },
   {
     title: "Para quem se destina",
@@ -30,7 +36,7 @@ export default function InformationDecision() {
 
   return (
     <section className=" bg-[#F3F3F3] p-4 sm:p-6 md:p-8 shadow-md lg:px-[72px] font-sans">
-      <h2 className="text-xl sm:text-3xl font-bold text-gray-800 mb-4 border-l-4 border-[#138E98] pl-2">
+      <h2 className="text-xl sm:text-3xl font-bold text-black mb-4 border-l-4 border-[#138E98] pl-2">
         Informações para decidir
       </h2>
 
@@ -38,11 +44,11 @@ export default function InformationDecision() {
         {data.map((item, index) => (
           <div
             key={index}
-            className=" bg-[#DFDFDF] shadow-sm"
+            className=" bg-[#DFDFDF] shadow-sm rounded-sm"
           >
             <button
               onClick={() => toggle(index)}
-              className="w-full flex items-center justify-between px-4 py-3 text-left text-sm sm:text-base font-semibold text-[#1F6482] hover:bg-gray-200"
+              className="w-full rounded-sm  flex items-center justify-between px-4 py-3 text-left text-sm sm:text-base font-semibold text-[#1F6482] hover:bg-gray-200"
             >
               {item.title}
               {openIndex === index ? (
@@ -53,7 +59,7 @@ export default function InformationDecision() {
             </button>
 
             {openIndex === index && (
-              <div className="px-4 pb-4 p-2 text-gray-700 bg-white text-sm sm:text-base">
+              <div className="px-4 rounded-b-sm  pb-4 p-2 text-gray-700 bg-white text-sm sm:text-base">
                 {item.content}
               </div>
             )}

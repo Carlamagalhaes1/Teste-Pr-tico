@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Information from "../components/Information";
 import InformationDecision from "../components/InformationDesicion";
+import Modules from "../components/modules";
 
 
 export default function Home (){
@@ -11,6 +12,7 @@ export default function Home (){
             <Banner/>
             <Information/>
             <InformationDecision/>
+            <Modules/>
             
         </div>
     )

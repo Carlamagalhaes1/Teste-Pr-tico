@@ -1,8 +1,8 @@
 
 export default function Information() {
   return (
-    <section className="bg-[#F3F3F3] py-8 ">
-      <div className="container mx-auto px-4">
+    <section className="bg-[#F3F3F3] pt-8 ">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:px-16 grid-cols-4-custom">
           <div className="text-center lg:text-left">
             <h3 className="text-[#999999] text-[14px] font-medium mb-1 uppercase">
