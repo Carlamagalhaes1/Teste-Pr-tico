@@ -65,7 +65,7 @@ export default function Modules() {
   };
 
   return (
-    <section className=" bg-[#F3F3F3] p-4 sm:p-6 md:p-8 shadow-md lg:px-[72px] font-sans">
+    <section className=" bg-[#F3F3F3] p-4 sm:p-6 md:p-8  lg:px-[72px] font-sans">
       <h2 className="text-xl sm:text-3xl font-bold text-black mb-4 border-l-4 border-[#138E98] pl-2">
         Oque você vai aprender
       </h2>
