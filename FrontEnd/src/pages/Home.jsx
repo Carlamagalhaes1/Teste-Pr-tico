@@ -1,6 +1,8 @@
 import Banner from "../components/Banner";
-import { Header } from "../components/Header";
+import Header from "../components/Header";
 import Information from "../components/Information";
+import InformationDecision from "../components/InformationDesicion";
+
 
 export default function Home (){
     return (
@@ -8,6 +10,8 @@ export default function Home (){
             <Header/>
             <Banner/>
             <Information/>
+            <InformationDecision/>
+            
         </div>
     )
 }

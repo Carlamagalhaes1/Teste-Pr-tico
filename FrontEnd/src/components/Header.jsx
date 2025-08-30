@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 
-export function Header() {
+export default function Header() {
     return (
 
         <header className="bg-[#1F6482] text-white py-[16px] flex justify-between items-center lg:py-[24px] " style={{ fontFamily: "'Noto Sans', sans-serif" }}>
