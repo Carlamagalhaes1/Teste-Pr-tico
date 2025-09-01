@@ -12,6 +12,7 @@ API em **PHP puro** que fornece cursos em **JSON** e um endpoint opcional de **I
   * `curl` → usada para chamadas HTTP externas.
   * `openssl` → necessária para conexões seguras (HTTPS).
   * `json` → usada para serialização e retorno de dados.
+  * `_dir` →  usada para o php saber onde esra os arquivos
 
 ---
 
@@ -23,13 +24,14 @@ API em **PHP puro** que fornece cursos em **JSON** e um endpoint opcional de **I
    C:\php\php-8.4
    ```
 2. Abra o arquivo `php.ini` (se não existir, copie o `php.ini-development` e renomeie).
-3. Procure as linhas que tenham `;extension=curl`, `;extension=openssl` e `;extension=json`.
+3. Procure as linhas que tenham `;extension=curl`, `;extension=openssl` e `;extension=json`. (se a extensão json não aparecer na pesquisa é porque ela já está embutida)
 4. Remova o `;` do início de cada linha para ativar. Deve ficar assim:
 
    ```
    extension=curl
    extension=openssl
    extension=json
+   extension_dir (se remover o ; não funcionar, edite o caminho absoluto para apontar onde você instalou o php.)
    ```
 5. Ative também:
 
@@ -45,12 +47,12 @@ API em **PHP puro** que fornece cursos em **JSON** e um endpoint opcional de **I
 
 1. Baixe o certificado `cacert.pem` em:
    [https://curl.se/ca/cacert.pem](https://curl.se/ca/cacert.pem)
-2. Salve em:
+2. Salve em: (exemplo)
 
    ```
    C:\php\php-8.4\extras\ssl\cacert.pem
    ```
-3. No `php.ini`, configure:
+3. No `php.ini`, pesquise por curl.cainfo e openssl.cafile, e configure da seguite forma:
 
    ```
    curl.cainfo = "C:/php/php-8.4/extras/ssl/cacert.pem"
