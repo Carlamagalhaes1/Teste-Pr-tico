@@ -22,7 +22,7 @@ cd Teste-fullstack
 * `/BackEnd` → API em PHP (cursos + rota de IA)
 * `/FrontEnd` → aplicação React (Vite) que consome a API
 
-Depois, siga os READMEs de cada módulo para instalar e rodar.
+Depois, siga os READMEs de cada módulo para instalar e rodar (estão abaixo de estrutura geral)
 
 ---
 
