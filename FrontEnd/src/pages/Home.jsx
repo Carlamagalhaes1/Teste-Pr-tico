@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Information from "../components/Information";
 import InformationDecision from "../components/InformationDesicion";
 import Investment from "../components/Investment";
-import Modules from "../components/modules";
+import Modules from "../components/Modules";
 
 
 export default function Home (){
@@ -17,8 +17,7 @@ export default function Home (){
             <Information/>
             <InformationDecision/>
             <Modules/>
-            <Courses/>
-         
+            <Courses/>  
             <Investment/>
             <Footer/>
             

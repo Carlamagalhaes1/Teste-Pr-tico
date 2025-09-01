@@ -35,7 +35,7 @@ export default function InformationDecision() {
   };
 
   return (
-    <section className="  p-4 sm:p-6 md:pt-0 md:pb-0 lg:px-[72px] font-sans">
+    <section className="  p-4 sm:p-6 md:pt-0 md:pb-0 lg:px-[72px] lg:mb-5 font-sans">
       <h2 className="text-xl sm:text-3xl font-bold text-black mb-4 border-l-4 border-[#138E98] pl-2">
         Informações para decidir
       </h2>
@@ -48,7 +48,7 @@ export default function InformationDecision() {
           >
             <button
               onClick={() => toggle(index)}
-              className="w-full rounded-sm  flex items-center justify-between px-4 py-3 text-left text-sm sm:text-base font-semibold text-[#1F6482] hover:bg-gray-200"
+              className="w-full rounded-sm  flex items-center justify-between px-4 py-3 text-left text-lg sm:text-base font-semibold text-[#1F6482] hover:bg-gray-200"
             >
               {item.title}
               {openIndex === index ? (

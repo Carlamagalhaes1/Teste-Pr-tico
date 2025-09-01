@@ -78,7 +78,7 @@ export default function Modules() {
           >
             <button
               onClick={() => toggle(index)}
-              className="w-full rounded-sm  flex items-center justify-between px-4 py-3 text-left text-sm sm:text-base font-semibold text-[#1F6482] hover:bg-gray-200"
+              className="w-full rounded-sm  flex items-center justify-between px-4 py-3 text-left text-lg sm:text-base font-semibold text-[#1F6482] hover:bg-gray-200"
             >
               {item.title}
               {openIndex === index ? (
