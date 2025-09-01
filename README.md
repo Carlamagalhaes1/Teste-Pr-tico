@@ -1,9 +1,28 @@
+
 ---
 
 # 📚 Teste Prático FullStack – Grupo O POVO
 
 Este repositório contém o **projeto FullStack** desenvolvido como parte do teste prático.
 O sistema é composto por um **BackEnd em PHP** e um **FrontEnd em React (Vite)** que consome a API.
+
+---
+
+## 🔽 Como clonar o projeto
+
+1. Abra o terminal e execute:
+
+```bash
+git clone https://github.com/Carlamagalhaes1/Teste-fullstack.git
+cd Teste-fullstack
+```
+
+2. Dentro da pasta do repositório você encontrará:
+
+* `/BackEnd` → API em PHP (cursos + rota de IA)
+* `/FrontEnd` → aplicação React (Vite) que consome a API
+
+Depois, siga os READMEs de cada módulo para instalar e rodar.
 
 ---
 
@@ -61,10 +80,10 @@ README.md   → Este arquivo (guia geral)
 
 Este repositório possui dois guias de instalação:
 
-* [📘 BackEnd – README](./BackEnd/README.md)
+* [📘 BackEnd – guia de instalação](./BackEnd/README.md)
   Explica como configurar PHP, habilitar extensões, rodar o servidor embutido e configurar a chave da OpenAI.
 
-* [📘 FrontEnd – README](./FrontEnd/README.md)
+* [📘 FrontEnd – guia de instalação](./FrontEnd/README.md)
   Explica como instalar Node.js, rodar com `npm run dev` e consumir a API.
 
 Siga cada um dos guias para rodar o sistema completo em sua máquina.
@@ -79,6 +98,10 @@ Siga cada um dos guias para rodar o sistema completo em sua máquina.
 
 ---
 
-👉 Esse README serve como **guia central**. Para detalhes técnicos de instalação e execução, acesse os READMEs de cada módulo (BackEnd e FrontEnd).
+👉 Esse README serve como **guia central**. Para detalhes técnicos de instalação e execução, acesse:
+
+* [📘 BackEnd/README.md](./BackEnd/README.md)
+* [📘 FrontEnd/README.md](./FrontEnd/README.md)
 
 ---
+
