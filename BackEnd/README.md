@@ -52,7 +52,7 @@ API em **PHP puro** que fornece cursos em **JSON** e um endpoint opcional de **I
    ```
    C:\php\php-8.4\extras\ssl\cacert.pem
    ```
-3. No `php.ini`, pesquise por curl.cainfo e openssl.cafile, e configure da seguite forma:
+3. No `php.ini`, pesquise por curl.cainfo e openssl.cafile, e configure da seguite forma: (exemplo, veja onde esta o caminho do seu php)
 
    ```
    curl.cainfo = "C:/php/php-8.4/extras/ssl/cacert.pem"
